@@ -1,0 +1,12 @@
+{
+    "require": {
+        "phpunit/phpunit": "^6.2",
+        "fzaninotto/faker": "^1.6",
+        "rmccue/requests": "dev-master",
+        "predis/predis": "^2.0@dev"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Utils\\": "utils/"}
+    }
+}
